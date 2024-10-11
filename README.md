@@ -16,7 +16,10 @@
 - pip install jupyterlab : Work on the project on Juypter notebook.
 
 1.2 Set up an environment variable for the Census API key
-- Request a API Key from https://api.census.gov/data/key_signup.html
+- Request a API Key from https://api.census.gov/data/key_signup.html.
+
+1.3 Run the result using Juypter notebook ###
+- Click kernel and select "Restart and run all".
 
 1.3 Use the provided Python script to fetch data and generate a graph
-- The graph will display population trends, male-to-female ratios, and a visual indicator of gender population dominance over time
+- The graph will display population trends, male-to-female ratios, and a visual indicator of gender population dominance over time.
