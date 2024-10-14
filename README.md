@@ -24,4 +24,5 @@
 1.3 Use the provided Python script to fetch data and generate a graph
 - The graph will display population trends, male-to-female ratios, and a visual indicator of gender population dominance over time.
 
-## Credit of this idea goes to my mentor: Santhosh Kannala
+## Credit of this idea goes to my mentor: Santhosh Kanala
+
