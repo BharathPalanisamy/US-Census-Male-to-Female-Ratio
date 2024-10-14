@@ -25,4 +25,5 @@
 - The graph will display population trends, male-to-female ratios, and a visual indicator of gender population dominance over time.
 
 ## Credit of this idea goes to my mentor: Santhosh Kanala
+## I also thank my Dad, Chandran Palanisamy for his tips in simplyfying the graphing
 
