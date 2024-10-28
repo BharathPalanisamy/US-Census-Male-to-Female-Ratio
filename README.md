@@ -1,8 +1,8 @@
-# US-Census-Male-to-Female-Ratio
+# US Census Male to Female Ratio for automotive industries
 
 ## Project Overview
 
-This project analyzes the male-to-female population ratio in the United States using data from the US Census Bureau over the past 10 years (2013-2022) and predicts trends for the next 5 years (2023-2027). The project visualizes gender population distributions, ratios, and overall population trends, offering insights into gender demographics across a 15-year span.
+This project analyzes the male-to-female population ratio in the United States using data from the US Census Bureau over the past 10 years (2013-2022) and predicts trends for the next 5 years (2023-2027). The project visualizes gender population distributions, ratios, and overall population trends, offering insights into gender demographics across a 15-year span. 
 
 The goal is to highlight trends in population distribution between genders, display the overall population in millions, and predict future ratios using linear regression.
 
@@ -11,7 +11,7 @@ The goal is to highlight trends in population distribution between genders, disp
 - **Python**: Core programming language for data retrieval, processing, and analysis.
 - **Pandas**: Used for data manipulation, organization, and analysis.
 - **Matplotlib**: Library for data visualization, creating graphs that represent population trends and gender ratios.
-- **US Census Bureau API**: Source for historical population data (2013-2022).
+- **US Census Bureau API**: Source for historical population data (2013-2022). (Can be worked for any county or state just have to change the API code).
 - **Linear Regression (scikit-learn)**: Predicts future population trends and gender ratios.
 
 ## How to Run This Project
