@@ -62,7 +62,7 @@ The goal is to highlight trends in population distribution between genders, disp
 **Targeted Marketing for Automotive Sales:** Automotive companies can use the male-to-female population ratios to enhance their marketing campaigns. By analyzing demographic data, manufacturers can identify which regions have a higher concentration of males or females and tailor their advertising accordingly.
 
 1. #### Example:
-   **Data:** Historical and predicted population ratios provide insight into gender trends.
+   **Data:** Historical and predicted population ratios provide insight into gender trends.<br>
    **Application:** If data indicates a growing female population in a specific area, automotive companies can focus marketing efforts on vehicles that appeal to this demographic.       For instance, promoting family-oriented or eco-friendly cars like electric vehicles and SUVs.
 
 **Product Development and Regional Sales Strategies:** Demographic trends allow automotive companies to plan their product development and regional sales strategies more effectively. Understanding shifts in gender ratios can guide the design and release of new models that cater to market demand.
