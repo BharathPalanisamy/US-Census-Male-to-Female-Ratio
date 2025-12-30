@@ -1,0 +1,19 @@
+# Ignore environment variables file
+.env
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data cache (if added later)
+data_cache/
+*.pkl
+*.pickle
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
