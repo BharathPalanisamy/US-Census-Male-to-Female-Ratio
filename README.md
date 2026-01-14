@@ -16,24 +16,58 @@ The goal is to highlight trends in population distribution between genders, disp
 
 ## How to Run This Project
 
-1. **Install Jupyter Notebook**
-   - Use the following command to install Jupyter Lab, which will serve as the workspace:
-     ```bash
-     pip install jupyterlab
-     ```
+### Prerequisites
+- Python 3.7 or higher
+- Required packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `requests`
 
-2. **Set Up Environment Variable for the Census API Key**
-   - Request an API key from the [US Census Bureau](https://api.census.gov/data/key_signup.html).
-   - Set the key as an environment variable:
-     ```bash
-     export CENSUS_API_KEY=your_api_key_here
-     ```
+### Setup Instructions
 
-3. **Run the Jupyter Notebook**
-   - Open the project in Jupyter Lab.
-   - Click on the kernel menu and select "Restart and Run All" to execute the entire project script.
+1. **Clone or Download This Repository**
+   ```bash
+   git clone <repository-url>
+   cd US-Census-Male-to-Female-Ratio
+   ```
 
-4. **Generate and View Results**
+2. **Install Required Packages**
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn requests jupyter
+   ```
+
+3. **Get Your Census API Key** (Required)
+   - Visit: [US Census Bureau API Key Signup](https://api.census.gov/data/key_signup.html)
+   - Fill out the form with your organization name and email
+   - You'll receive your API key via email (usually within a few minutes)
+
+4. **Configure Your API Key** (Choose ONE method)
+
+   **Option A: Environment Variable (Recommended)**
+   ```bash
+   export CENSUS_API_KEY="your_api_key_here"
+   ```
+   
+   **Option B: .env File (Persistent)**
+   ```bash
+   # Copy the example file
+   cp .env.example .env
+   
+   # Edit .env and replace YOUR_API_KEY_HERE with your actual key
+   ```
+   
+   **Option C: Direct in Notebook (Not recommended for sharing)**
+   - Open the notebook and uncomment the line in the first code cell
+   - Replace `your_key_here` with your actual API key
+
+5. **Run the Jupyter Notebook**
+   ```bash
+   jupyter notebook US_CENSUS_POPULATION_PREDICTIONS.ipynb
+   ```
+   
+   Or in VS Code:
+   - Open the notebook file
+   - Select a Python kernel
+   - Click "Run All" or run cells individually
+
+6. **View Results**
    - The script will automatically fetch data, process it, and generate visualizations.
    - The graph will display:
      - Historical trends for male and female populations (2013-2022).
